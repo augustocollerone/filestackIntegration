@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BE3E39D26B197E10065DE7B /* FilestackIntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E39C26B197E10065DE7B /* FilestackIntegrationApp.swift */; };
+		2BE3E39F26B197E10065DE7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E39E26B197E10065DE7B /* ContentView.swift */; };
+		2BE3E3A126B197E30065DE7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE3E3A026B197E30065DE7B /* Assets.xcassets */; };
+		2BE3E3A426B197E30065DE7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE3E3A326B197E30065DE7B /* Preview Assets.xcassets */; };
+		2BE3E3B526B198850065DE7B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE3E3B426B198850065DE7B /* ImagePicker.swift */; };
+		2BE3E3B826B19AE70065DE7B /* FilestackSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE3E3B726B19AE70065DE7B /* FilestackSDK */; };
+		2BE3E3B926B19AE70065DE7B /* FilestackSDK in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2BE3E3B726B19AE70065DE7B /* FilestackSDK */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2BE3E3BC26B19B010065DE7B /* Filestack in Frameworks */ = {isa = PBXBuildFile; productRef = 2BE3E3BB26B19B010065DE7B /* Filestack */; };
+		2BE3E3BD26B19B010065DE7B /* Filestack in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 2BE3E3BB26B19B010065DE7B /* Filestack */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2BE3E3AF26B198340065DE7B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2BE3E3B926B19AE70065DE7B /* FilestackSDK in Embed Frameworks */,
+				2BE3E3BD26B19B010065DE7B /* Filestack in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2BE3E39926B197E10065DE7B /* FilestackIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilestackIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE3E39C26B197E10065DE7B /* FilestackIntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilestackIntegrationApp.swift; sourceTree = "<group>"; };
+		2BE3E39E26B197E10065DE7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BE3E3A026B197E30065DE7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BE3E3A326B197E30065DE7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BE3E3A526B197E30065DE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BE3E3B426B198850065DE7B /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE3E39626B197E10065DE7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE3E3B826B19AE70065DE7B /* FilestackSDK in Frameworks */,
+				2BE3E3BC26B19B010065DE7B /* Filestack in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE3E39026B197E10065DE7B = {
+			isa = PBXGroup;
+			children = (
+				2BE3E39B26B197E10065DE7B /* FilestackIntegration */,
+				2BE3E39A26B197E10065DE7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE3E39A26B197E10065DE7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE3E39926B197E10065DE7B /* FilestackIntegration.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE3E39B26B197E10065DE7B /* FilestackIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				2BE3E39C26B197E10065DE7B /* FilestackIntegrationApp.swift */,
+				2BE3E39E26B197E10065DE7B /* ContentView.swift */,
+				2BE3E3B426B198850065DE7B /* ImagePicker.swift */,
+				2BE3E3A026B197E30065DE7B /* Assets.xcassets */,
+				2BE3E3A526B197E30065DE7B /* Info.plist */,
+				2BE3E3A226B197E30065DE7B /* Preview Content */,
+			);
+			path = FilestackIntegration;
+			sourceTree = "<group>";
+		};
+		2BE3E3A226B197E30065DE7B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BE3E3A326B197E30065DE7B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE3E39826B197E10065DE7B /* FilestackIntegration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE3E3A826B197E30065DE7B /* Build configuration list for PBXNativeTarget "FilestackIntegration" */;
+			buildPhases = (
+				2BE3E39526B197E10065DE7B /* Sources */,
+				2BE3E39626B197E10065DE7B /* Frameworks */,
+				2BE3E39726B197E10065DE7B /* Resources */,
+				2BE3E3AF26B198340065DE7B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilestackIntegration;
+			packageProductDependencies = (
+				2BE3E3B726B19AE70065DE7B /* FilestackSDK */,
+				2BE3E3BB26B19B010065DE7B /* Filestack */,
+			);
+			productName = FilestackIntegration;
+			productReference = 2BE3E39926B197E10065DE7B /* FilestackIntegration.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE3E39126B197E10065DE7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2BE3E39826B197E10065DE7B = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 2BE3E39426B197E10065DE7B /* Build configuration list for PBXProject "FilestackIntegration" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BE3E39026B197E10065DE7B;
+			packageReferences = (
+				2BE3E3B626B19AE70065DE7B /* XCRemoteSwiftPackageReference "filestack-swift" */,
+				2BE3E3BA26B19B010065DE7B /* XCRemoteSwiftPackageReference "filestack-ios" */,
+			);
+			productRefGroup = 2BE3E39A26B197E10065DE7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE3E39826B197E10065DE7B /* FilestackIntegration */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE3E39726B197E10065DE7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE3E3A426B197E30065DE7B /* Preview Assets.xcassets in Resources */,
+				2BE3E3A126B197E30065DE7B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE3E39526B197E10065DE7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE3E3B526B198850065DE7B /* ImagePicker.swift in Sources */,
+				2BE3E39F26B197E10065DE7B /* ContentView.swift in Sources */,
+				2BE3E39D26B197E10065DE7B /* FilestackIntegrationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BE3E3A626B197E30065DE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BE3E3A726B197E30065DE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE3E3A926B197E30065DE7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FilestackIntegration/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L3FL2PUTS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FilestackIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlideInc.FilestackIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BE3E3AA26B197E30065DE7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"FilestackIntegration/Preview Content\"";
+				DEVELOPMENT_TEAM = 5L3FL2PUTS;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = FilestackIntegration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GlideInc.FilestackIntegration;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE3E39426B197E10065DE7B /* Build configuration list for PBXProject "FilestackIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE3E3A626B197E30065DE7B /* Debug */,
+				2BE3E3A726B197E30065DE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE3E3A826B197E30065DE7B /* Build configuration list for PBXNativeTarget "FilestackIntegration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE3E3A926B197E30065DE7B /* Debug */,
+				2BE3E3AA26B197E30065DE7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2BE3E3B626B19AE70065DE7B /* XCRemoteSwiftPackageReference "filestack-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/filestack/filestack-swift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.7.0;
+			};
+		};
+		2BE3E3BA26B19B010065DE7B /* XCRemoteSwiftPackageReference "filestack-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/filestack/filestack-ios.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2BE3E3B726B19AE70065DE7B /* FilestackSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BE3E3B626B19AE70065DE7B /* XCRemoteSwiftPackageReference "filestack-swift" */;
+			productName = FilestackSDK;
+		};
+		2BE3E3BB26B19B010065DE7B /* Filestack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2BE3E3BA26B19B010065DE7B /* XCRemoteSwiftPackageReference "filestack-ios" */;
+			productName = Filestack;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2BE3E39126B197E10065DE7B /* Project object */;
+}
